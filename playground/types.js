@@ -2,4 +2,10 @@
 
 
 
-const age = 100;
+const age = 48;
+
+const person = {
+    age: age,
+    first: 'Ola',
+    last: 'Vea'
+};
