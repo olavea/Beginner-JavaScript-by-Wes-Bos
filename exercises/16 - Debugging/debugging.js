@@ -5,10 +5,12 @@ const people = [
 ];
 
 people.forEach((person, index) => {
-  console.log(person.name);
+  console.warn(person.name);
 });
 
 // Console Methods
+
+console.table(people)
 
 // Callstack
 
