@@ -8,6 +8,20 @@ pic.classList.remove('open');
 pic.classList.toggle('round');
 console.log(pic.classList);
 
+pic.alt = 'Cute Pup'; // setter 🐕
+pic.setAttribute('alt', 'Cute Pup');
+pic.width = 200;
+console.log(pic.alt);  // getter 😸
+
+// window.addEventListener('load', function() {
+//     console.log(pic.naturalWidth);  
+// } );
+
+pic.width = 200;
+
+console.log(pic.getAttribute('alt'));  // getter 😸
+
+// William Woolf
 
 // const p = document.querySelector('p');
 // const d =document.querySelectorAll('d')
@@ -28,7 +42,11 @@ console.log(pic.classList);
 // console.log(heading.textContent);
 
 
-
+// The DOM - build in and custom 
+// attributes anything provided to an elementn as additional info
+// Classes source alt-attribute 
+// work exacley like properties
+// custom and data attributes
 
 
 
